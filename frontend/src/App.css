@@ -1,0 +1,45 @@
+.message {
+  padding: 1rem;
+}
+
+.message.user {
+  background-color: #e0eafa;
+}
+
+.message.error {
+  background-color: #fae0e0;
+}
+
+img.icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.message:has(.message-code) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-box {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.message-input {
+  width: 100%;
+}
+
+.message-input, button {
+  padding: 0.5rem;
+}
+
+.message-page-context {
+  font-size: 0.8rem;
+} 
+
+.message-send-webpage {
+  padding: 0.5rem 0;
+}
